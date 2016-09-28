@@ -25,7 +25,7 @@ In this walkthrough, we will go over how to make a website. We will be developin
 
 * Windows users can install Ruby and Ruby on Rails as well, but many gems do not play well in a Windows environment. This is also true of many popular frameworks. Due to this, I recommend you set up a virtual machine and Run Ubuntu 14 on it(15 and 16 are newer, but are suffering from many known issues). You can learn from this link: http://www.itworld.com/article/2919329/virtualization/how-to-setup-and-create-your-own-virtualbox-linux-machines.html
 
-* Install bundler
+* Install bundler on your computer
 
 * To test and make sure everything is running fine, do a simple ruby -v into your console, and a rails -v afterwards. You should see ruby 2.3.1 and Rails 5.0.0.1
 
@@ -59,9 +59,13 @@ Alright, enough of the Rails Koolaid, what else is out there that I could use to
 
 ## Ruby Frameworks
 
-## Hanami. This is a new Ruby framework that is very simple and beautiful to use. I personally have been keeping an eye on it and enjoy seeing its progress.
+## Hanami. 
 
-## Sinatra. This is a micro-framework that many Ruby users use in favor of Ruby when they aren't looking for tons of features or pages. It boasts load-speeds a bit faster than Rails.
+This is a new Ruby framework that is very simple and beautiful to use. I personally have been keeping an eye on it and enjoy seeing its progress.
+
+## Sinatra. 
+
+This is a micro-framework that many Ruby users use in favor of Ruby when they aren't looking for tons of features or pages. It boasts load-speeds a bit faster than Rails.
 
 ## Javasript Frameworks
 
@@ -89,9 +93,12 @@ Elm is another 'new kid on the block' that is becoming very popular with teams i
 
 # Phoenix/Elixir
 
-## Elixir is a functional programming language designed by a core Rails team member. It is written on top of Erlang and is quickly winning over Ruby devs(myself included!)
+## Elixir 
 
-## Phoenix is a webframework that is built on top of Erlang and Elixir libraries such as Cowboy, Plug, Ecto, and other libraries. Phoenix is known to be incredibly fast, and has concurrent response times of microseconds.
+Elixir is a functional programming language designed by a core Rails team member. It is written on top of Erlang and is quickly winning over Ruby devs(myself included!)
+
+## Phoenix 
+Phoenix is a webframework that is built on top of Erlang and Elixir libraries such as Cowboy, Plug, Ecto, and other libraries. Phoenix is known to be incredibly fast, and has concurrent response times of microseconds.
 
 ## Overview of what we have covered so far
 
