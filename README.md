@@ -8,7 +8,7 @@ Web Development in 2016 is very fast pace. There are hundreds of libraries avail
 
 In this walkthrough, we will go over how to make a website. We will be developing the local ACM website through this walkthrough, and that means we will be doing this together! The best part about the ACM of Memphis, is that we are a small organization and thus connected more closely than other ACM groups tend to be.
 
-Here is what we will learn and use:
+## Here is what we will learn and use:
 
 * Ruby on Rails(And a very light overview of Ruby itself)
 * Bootstrap CSS, and how you can customize what you want to do with it
@@ -27,7 +27,7 @@ Here is what we will learn and use:
 
 * Install bundler
 
-*To test and make sure everything is running fine, do a simple ruby -v into your console, and a rails -v afterwards. You should see ruby 2.3.1 and Rails 5.0.0.1
+* To test and make sure everything is running fine, do a simple ruby -v into your console, and a rails -v afterwards. You should see ruby 2.3.1 and Rails 5.0.0.1
 
 * You will need a text editor. I recommend Sublime Text( https://www.sublimetext.com/3 ), though there are other popular alternatives, such as the Atom Text Editor.
 
@@ -59,37 +59,41 @@ Alright, enough of the Rails Koolaid, what else is out there that I could use to
 
 ## Ruby Frameworks
 
-* Hanami. This is a new Ruby framework that is very simple and beautiful to use. I personally have been keeping an eye on it and enjoy seeing its progress.
+## Hanami. This is a new Ruby framework that is very simple and beautiful to use. I personally have been keeping an eye on it and enjoy seeing its progress.
 
-* Sinatra. This is a micro-framework that many Ruby users use in favor of Ruby when they aren't looking for tons of features or pages. It boasts load-speeds a bit faster than Rails.
+## Sinatra. This is a micro-framework that many Ruby users use in favor of Ruby when they aren't looking for tons of features or pages. It boasts load-speeds a bit faster than Rails.
 
 ## Javasript Frameworks
 
 Because there are so many Javascript Frameworks, I will only talk about the few, most popular as of this writing.
 
-* Angular 1/2. 
+## Angular 1/2. 
 
 This is a fully featured web framework, just like Ruby. It follows MVW(Model, View, Whatever) school of thought, and is also very popular. Because Angular 2 is so vastly different from 1, many companies are forgone the thought of upgrading and are warey of what may come. Despite this, if you are looking for a job, this is a very valuable framework to learn.
 
-* React/Redux
+## React/Redux
 
 React.JS is a view framework made by Facebook. It utilizes something called the "Virtual DOM" to have blazing fast speeds. It adds a different way of thinking about web development, and has a flavor of functional programming to its style and is almost always paried with Redux as of this writing. With React, you have some important things to remember: State, Props, Components, and Store. We may go into this later, but it is more likely this will be another topic for another day. React is currently thought to be the hot new framework in the JS world, and for the next 2 or 3 years at least, it will be in demand 
 
-* Ember.JS
+## Ember.JS
 
 Ember is an interesting framework, since it is very similar to Ruby on Rails as far as Javascript Libraries go. Ember is notorious for being 'opinionated' in the JS world, and it tends to scare away beginners. It was designed to write large projects(such as Netflix) between medium-large sized teams, and has conventions in placed so that many common pitfalls that large JS projects tend to fall victim to. It is not un-common to see Ember on the Front-End, and Rails on the Back-End. Mixing these technologies is very commonly done in dev shops, and tend to have very positive results. 
 
-* Vue.JS
+## Vue.JS
 
 Vue is a newer framework and has been 'adopted' by the PHP community as their front-end framework of choice. Vue is a lightweight framework which has shown itself to be incredibly fast in current benchmarks. Currently, it is beating React, Angular, and Ember(The Ember core team did comment stating that the benchmark used for Ember was not an ideal benchmark and thus not as accurate as possible) in speed. Vue also lends itself to the View layer in web applications, and is the newcomer to the JS world. It seems to be picking up speed, but as of this writing, most people using Vue will be doing so for hobby projects; though this is expected to change.
 
+# Elm
+
+Elm is another 'new kid on the block' that is becoming very popular with teams interested in alternatives to Javasript. Elm is a beautiful front-end language, and a light functional language so you can easy into thought-process of a functional language with Elm. It boasts faster speeds than any of the previous stated JS libraries, and no run-time errors(Which JS is notorious for sneaking into your code)
+
 # Phoenix/Elixir
 
-* Elixir is a functional programming language designed by a core Rails team member. It is written on top of Erlang and is quickly winning over Ruby devs(myself included!)
+## Elixir is a functional programming language designed by a core Rails team member. It is written on top of Erlang and is quickly winning over Ruby devs(myself included!)
 
-* Phoenix is a webframework that is built on top of Erlang and Elixir libraries such as Cowboy, Plug, Ecto, and other libraries. Phoenix is known to be incredibly fast, and has concurrent response times of microseconds.
+## Phoenix is a webframework that is built on top of Erlang and Elixir libraries such as Cowboy, Plug, Ecto, and other libraries. Phoenix is known to be incredibly fast, and has concurrent response times of microseconds.
 
-# Overview of what we have covered so far
+## Overview of what we have covered so far
 
 An intro to getting started, and what we will be building, as well as an overview of the web development world in 2016
 
