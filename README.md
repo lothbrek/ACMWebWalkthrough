@@ -19,7 +19,7 @@ In this walkthrough, we will go over how to make a website. We will be developin
 
 # What you need to do
 
-* If you do not have a Github account, make one(It's free). Afterwards, go to this repository and fork it so that you can work on your own version/changes in your spare time. 
+* If you do not have a Github account, make one(It's free). Afterwards, go to this repository and fork AND star it so that you can work on your own version/changes in your spare time. 
 
 * If you are a Linux or Mac User, Simply make sure that you have Ruby 2.3.1 and Ruby on Rails 5.0.0.1 installed (http://railsapps.github.io/installrubyonrails-ubuntu.html)
 
@@ -34,6 +34,59 @@ In this walkthrough, we will go over how to make a website. We will be developin
 * I recommend pinning your console and your text editor to your sidebar for ease of use.
 
 Great, you're all set up and good to go!
+
+# Contact Information
+* Join slack channel at memphisacm.slack.com
+* Channel name: #www
+
+* Matt McCullar: matt@mattmccullar.com
+* Albert: nguyen11@memphis.edu
+* Caleb: cmller25@memphis.edu
+* Armando ammagana@memphis.edu
+* Kevin: kcwllms2@memphis.edu
+* Logan: wlfncher@memphis.edu
+* Ryan: rwickman@memphis.edu
+* Naim: nmhakeem@memphis.edu
+
+# What we have covered so far
+
+* Introductions
+* Basic overview of web design
+* Making sure everyone has everything installed
+* Plan: Ruby on Rails and Plain Javascript, some Bootstrap for the CSS to save time. Eventually go into React.JS possibly.
+
+## October 7th, 2016
+
+* Add a events calender
+* Multiple pages over single page
+* What pages we will make
+* Graphic Designer(Naim) will provide images
+
+#Style:
+* Header blue
+* light grey/cream background
+* blue footer
+* We'll be going with school colors for this: #00498f (blue), and #b2b3b6 (Light grey)
+
+### Pages planned
+* Home
+	Banner(Maybe large image of kareem standing over table of people at hackmemphis). memphis.edu/cs/current_students/acm.php Light overview of our acm. (Put about info, relevant to memphis acm, love smash)
+* Events
+	This will a simple calender app that is updated by Kareem/designated.
+* (Put on home, contact, and about). How to join
+	Go to  DH147 any time. Join slack channel. Kareem and josh and brandon kevin, irfan
+
+* Contact us
+
+* Projects
+
+
+### Plans for next session
+* Get pages and controllers for that
+* Grid for pages and responsiveness
+* Basic information
+* A little bit of styling and images
+
 
 # Why Rails?
 
