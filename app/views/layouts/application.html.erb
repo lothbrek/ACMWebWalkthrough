@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Acm</title>
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web development, ACM, computer science, memphis, university of memphis, programming contest, cyber security, game development">
+  <meta name="author" content="ACM Memphis Website. Github Repo: https://github.com/mmccullar/ACMWebWalkthrough">
+ 
+    <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
-
+ 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+ 
+    <%= render 'layouts/shim' %>
+ 
   </head>
-
+ 
   <body>
+  <%= render 'layouts/header' %>
+    <div class="container">
     <%= yield %>
+    </div>
   </body>
 </html>

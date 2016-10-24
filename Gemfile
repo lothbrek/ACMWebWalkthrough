@@ -46,3 +46,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#acm gems
+#bootstrap/sprockets
+gem 'bootstrap-sass'
+gem 'sprockets'
+#font awesome gem
+gem 'font-awesome-sass', '~> 4.6.2'
+#thegreatcodeadventure.com/deploying-rails-to-digitalocean-the-hard-way

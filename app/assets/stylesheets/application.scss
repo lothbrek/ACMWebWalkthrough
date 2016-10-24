@@ -1,0 +1,72 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap";
+@import 'normalize';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.navbar-custom {
+    color: #1976d2;
+    background-color: #1976d2;
+    .navbar-brand{ 
+    	color: #e0e0e0;
+     }
+    
+}
+
+body,html {
+  height: 100%;
+  background-color: #e0e0e0;
+}
+body {
+    padding-top: 46px;
+}
+
+p { 
+	font-family: Roboto;
+	font-size: 122%;
+	letter-spacing: 0.02px;
+	color: #000;
+}
+
+h1 {
+	color: #000;
+}
+ 
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 25px;
+  margin-top: 80px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-top: 1px solid   #282828 ;
+  background-color: #00498f;
+ 
+  p {
+  float: left;
+  }
+ 
+  small {
+    float: right;
+    margin-right:0px;
+  }
+}
