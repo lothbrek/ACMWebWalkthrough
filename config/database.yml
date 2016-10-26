@@ -22,4 +22,9 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  url: <%= ENV["DATABASE_URL"] %>
+  username: rails
+  password: Gotigersgo
+  host: localhost
+  database: rails
